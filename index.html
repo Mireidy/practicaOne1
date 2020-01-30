@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+         <div class="container-fluid">
+        <h2>Registro de Usuarios</h2>
+        <form id="formularioRegistro">
+            <div class="row">
+                <div class="form-group col-sm-5">
+                <label for="email">Usuario: </label>
+                <input type="text" class="form-control" id="email" placeholder="Introduzca su e-mail">
+            </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-sm-5">
+                <label for="password">Contraseña: </label>
+                <input type="password" class="form-control" id="password" placeholder="Introduzca contraseña">
+            </div>
+            </div>
+            <div class="row">
+                 <div class="form-group col-sm-5">
+                <label for="password2">Confirmar Contraseña: </label>
+                <input type="password" class="form-control" id="password2" placeholder="Confirme contraseña">
+            </div>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-primary" id="botonRegistro">Registrar</button>
+            <button type="button" class="btn btn-warning" id="botonCancelar">Cancelar</button>
+            </div>
+
+
+            <div class="row">
+                <button type="button" class="btn btn-primary" id="facebook">Meterse a facebook</button>
+           
+            </div>
+        </form>
+    </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
